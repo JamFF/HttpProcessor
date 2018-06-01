@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volley"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt_xutils"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/bt_volley"
+        android:text="@string/xutils"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bt_okhttp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/bt_xutils"
+        android:text="@string/okhttp"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/bt_retrofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/bt_okhttp"
+        android:text="@string/retrofit"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_http"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_volley"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/volley"/>
+
+    <Button
+        android:id="@+id/bt_post_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/post_request"/>
+
+    <Button
+        android:id="@+id/bt_get_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_post_request"
+        android:layout_centerHorizontal="true"
+        android:text="@string/get_request"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bt_post_request"
+        android:gravity="center"/>
+
+</RelativeLayout>

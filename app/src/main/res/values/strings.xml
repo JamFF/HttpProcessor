@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HttpProcessor</string>
+    <string name="get_request">GET请求</string>
+    <string name="post_request">POST请求</string>
+    <string name="volley">volley</string>
+    <string name="xutils">XUtils</string>
+    <string name="okhttp">OkHttp</string>
+    <string name="retrofit">Retrofit</string>
+</resources>
