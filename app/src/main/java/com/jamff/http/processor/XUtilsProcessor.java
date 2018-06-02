@@ -12,7 +12,7 @@ import org.xutils.x;
 import java.util.Map;
 
 /**
- * 描述：XUtils
+ * 描述：XUtils委托类，实现网络抽象层接口
  * 作者：JamFF
  * 创建时间：2018/6/1 9:42
  */

@@ -14,7 +14,7 @@ import com.jamff.http.MainActivity;
 import java.util.Map;
 
 /**
- * 描述：Volley
+ * 描述：Volley委托类，实现网络抽象层接口
  * 作者：JamFF
  * 创建时间：2018/5/31 12:30
  */

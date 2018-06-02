@@ -9,7 +9,7 @@ import java.net.URLEncoder;
 import java.util.Map;
 
 /**
- * 描述：代理类
+ * 描述：代理类，实现网络抽象层接口
  * 作者：JamFF
  * 创建时间：2018/5/30 18:24
  */

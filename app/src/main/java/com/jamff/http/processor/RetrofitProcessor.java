@@ -14,7 +14,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 /**
- * 描述：Retrofit
+ * 描述：Retrofit委托类，实现网络抽象层接口
  * 作者：JamFF
  * 创建时间：2018/6/1 11:13
  */

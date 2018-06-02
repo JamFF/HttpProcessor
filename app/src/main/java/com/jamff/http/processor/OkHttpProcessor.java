@@ -17,7 +17,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 /**
- * 描述：OkHttp
+ * 描述：OkHttp委托类，实现网络抽象层接口
  * 作者：JamFF
  * 创建时间：2018/6/1 10:19
  */

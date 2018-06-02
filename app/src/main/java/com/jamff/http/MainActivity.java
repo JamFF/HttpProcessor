@@ -14,6 +14,11 @@ import com.jamff.http.processor.XUtilsProcessor;
 
 import java.util.HashMap;
 
+/**
+ * 描述：客户类
+ * 作者：傅健
+ * 创建时间：2018/5/30 11:21
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     public static final String TAG = "JamFF";
